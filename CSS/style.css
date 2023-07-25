@@ -1,0 +1,159 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.chart-container {
+    height: 1000px;
+    width: 1000px;
+    margin: auto;
+    position: relative;
+    top: 110px;
+}
+
+h1 {
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+
+.form-select {
+    cursor: pointer;
+    margin: auto;
+    width: 250px;
+    height: 50px;
+    position: relative;
+    left: 635px;
+    top: 50px;
+    text-align: center;
+}
+
+/* #option::after {
+    border-color: rgb(231, 231, 231) !important;
+}
+
+.form-select:focus {
+    border-color: rgb(79, 79, 221) !important;
+}
+
+.form-select::after {
+    border-color: rgb(79, 79, 221) !important;
+}
+
+.form-select:active {
+    border-color: rgb(79, 79, 221) !important;
+} */
+
+.allStoreChart-container {
+    width: 1200px;
+    height: 1000px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+
+#tableHeaderRow {
+    background-color: rgb(168, 168, 168);
+}
+
+.primaryTable {
+    text-align: center;
+    margin: auto;
+    position: relative;
+    bottom: 180px;
+    left: 100px;
+    width: 1000px;
+    height: 1000px;
+    border-bottom: 2px solid rgb(210, 209, 209);
+}
+
+#MyOrangeHeader {
+    font-size: 22px;
+    color: rgb(255, 153, 0);
+    background-color: rgb(0, 0, 0);
+}
+
+#AnaVodafoneHeader {
+    font-size: 22px;
+    color: rgb(255, 17, 17);
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid rgb(212, 211, 211);
+}
+
+#myEtisalat {
+    border-right-color: rgb(255, 57, 57);
+    font-size: 22px;
+    width: 320px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 57, 57);
+}
+
+.vodafoneIcon {
+    width: 30px;
+    height: 30px;
+}
+
+.etisalatIcon {
+    width: 120px;
+    height: 30px;
+}
+
+.orangeIcon {
+    width: 40px;
+    height: 40px;
+}
+
+.etisalatContent {
+    position: relative;
+    bottom: 5px;
+}
+
+.vodafoneContent {
+    position: relative;
+    bottom: 5px;
+}
+
+.rowStyle {
+    font-size: 18;
+    position: relative;
+    top: 7px;
+    border-right: 1px solid rgb(210, 209, 209);
+    border-left: 1px solid rgb(210, 209, 209);
+}
+
+.featuresHeader {
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.seconderyTable {
+    margin: auto;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    right: 500px;
+    top: 420px;
+    text-align: center;
+    transform: rotate(-90deg);
+    border-top: 2px solid rgb(210, 209, 209);
+    border-right: 2px solid rgb(210, 209, 209);
+    border-left: 2px solid rgb(210, 209, 209);
+    border-bottom: 0px solid rgb(210, 209, 209);
+    box-shadow: 0px -12px 40px -20px #888888;
+}
+
+#secTableHeader {
+    font-size: 40px;
+    position: relative;
+    bottom: 60px;
+}
+
+/* .tablesContainer {
+    margin: auto;
+    position: relative;
+    bottom: 200px;
+} */

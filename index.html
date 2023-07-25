@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Benchmark Task</title>
+</head>
+<body>
+    <h1>Benchmark Task</h1>
+    <select id="option" class="form-select" aria-label="Default select example">
+      <option selected disabled>Open this select menu</option>
+      <option value="playStore" data-icon="google-play.ico"> Play Store</option>
+      <option value="appStore">App Store</option>
+      <option value="appGallery">AppGallery</option>
+      <option value="allStores">All Stores</option>
+      <option value="features">Features</option>
+      <option value="startupTime">Startup Time</option>
+    </select>
+
+    <div id="parent" class="chart-container">
+        <canvas id="myChart"></canvas>
+    </div>
+</body>
+</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.2.0/chart.umd.js"></script>
+<script src="JS/index.js"></script>
